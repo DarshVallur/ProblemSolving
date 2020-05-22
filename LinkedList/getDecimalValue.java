@@ -19,7 +19,6 @@ public class result {
 			data += Integer.toString(head.val);
 			head = head.next;
 		}
-		
 		return Integer.parseInt(data, 2);
 	}
 } 
